@@ -24,3 +24,5 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 ENTRYPOINT ["dotnet", "BookPortel.dll"]
+
+##committed new chnages in dockerfile
