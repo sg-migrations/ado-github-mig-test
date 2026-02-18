@@ -25,4 +25,6 @@ COPY --from=publish /app/publish .
 
 ENTRYPOINT ["dotnet", "BookPortel.dll"]
 
+
 ##committed new chnages in dockerfile
+##added one more commit from github 
