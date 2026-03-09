@@ -5,7 +5,7 @@ USER app
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
-code = "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"
+
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
@@ -28,4 +28,5 @@ ENTRYPOINT ["dotnet", "BookPortel.dll"]
 
 ##committed new chnages in dockerfile
 ##added one more commit from github 
+
 
